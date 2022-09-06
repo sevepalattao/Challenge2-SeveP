@@ -10,14 +10,18 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #383838;
+    color: #383838;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-right: 2px;
+    background-color:rgba(0, 242, 255, 0.503);
 }
 
 .header nav {
@@ -35,11 +39,12 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding-bottom: 2px;
+    text-decoration: underline;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color:rgba(0, 242, 255, 0.503)
 }
 
 .picture {
@@ -49,4 +54,14 @@ a {
     background-image: url("../images/pexels-felix-mittermeier-956999.jpg");
     background-size: cover;
     background-position: center;
+}
+
+figcaption {
+    background-color:rgba(0, 242, 255, 0.503);
+    color:#383838;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    position: absolute;
+    right:5%; 
+    top:30%
 }
